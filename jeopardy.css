@@ -1,0 +1,42 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+/* table {
+	height: 600px;
+	width: 500px;
+	margin: auto;
+} */
+table {
+	height: 739px;
+	width: 1015px;
+	margin: auto;
+	table-layout: fixed;
+}
+#myTable tr td {
+	border: solid white;
+	border-width: .75px;
+	background-color: #060ce9;
+	text-align: center;
+	color: white;
+	height: 100px;
+}
+
+#table-head {
+	max-height: 25px;
+	width: 169px;
+}
+
+th {
+	border: solid white;
+	border-width: .75px;
+	background-color: #74119c;
+	height: 133 px;
+	width: 169 px;
+	word-wrap: normal;
+	padding: 2em;
+}
